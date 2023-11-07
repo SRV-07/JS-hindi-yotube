@@ -34,3 +34,27 @@ console.log("hello world");
 }
 
 console.log(typeof scoreValue);  
+
+// *********************************************************
+
+//stack (primitive), heap (non-primitive)
+
+let myYotubename = "souravdot.com"
+
+let anothername = myYotubename
+anothername = "codewithsourav"
+
+console.log(myYotubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    Upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "sourav@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
